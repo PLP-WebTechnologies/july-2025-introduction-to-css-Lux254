@@ -1,0 +1,103 @@
+body {
+    background-color: lightgray;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar {
+    list-style-type: none;
+}
+
+.nav-bar li {
+    display: inline;
+    padding: 0px 20px;
+}
+
+.nav-bar li a {
+    text-decoration: none;
+}
+
+.nav-bar li a:hover {
+    color: blue;
+}
+
+strong {
+    color: blue;
+}
+
+#logo {
+    font-weight: 900;
+    font-size: large;
+}
+
+#logo:hover {
+    cursor: pointer;
+}
+
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#trophy-list {
+    color: darkblue;
+}
+
+figcaption {
+    color: darkblue;
+}
+
+fieldset {
+    border-color: darkblue;
+}
+
+legend {
+    color: darkblue;
+    font-weight: bolder;
+}
+
+label {
+    font-weight: bold;
+}
+
+#submit {
+    cursor: pointer;
+    padding: 5px;
+    border: 3px solid darkblue;
+    border-radius: 5px;
+}
+
+#chelsweb {
+    border: 3px solid darkblue;
+    border-radius: 5px;
+    padding: 10px;
+    text-decoration: none;
+    color: darkblue;
+}
+
+#chelsweb:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+input, select, textarea {
+    border: 2px solid darkblue;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+input, select {
+    margin: 5px;
+}
+
+input:hover, select:hover, textarea:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+
